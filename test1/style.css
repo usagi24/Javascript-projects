@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 3.0rem;
+  color: #fff;
+  margin: 0;
+  /* text-align: center; */
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: #000;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 600;
+  /* line-height: 3.3rem; */
+  padding: 1.3rem 0;
+  font-size: 1.5rem;
+  color: #8f8f8f;
+  margin: 0;
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.container-fluid {
+  padding: 1% 5% 1%;
+}
+
+/* navbar */
+
+.cover-img {
+  background-image: url('images/business-woman.jpg');
+  width: 100%;
+  height: calc(100vh - 60px);
+  padding-bottom: 40px;
+  margin: 0;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.navbar {
+  /* position: fixed; */
+  /* width: 100%; */
+  /* z-index: 2; */
+  transition: all 0.3s ease;
+}
+
+.navbarscroll {
+  background-color: #231E23;
+  /* padding: 8px 0; */
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-info {
+  color: #A2DBFA;
+  border-color: #A2DBFA;
+}
+
+.btn-outline-info:hover {
+  color: #000;
+  border-color: #3490DE;
+  background-color: #3490DE;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+ul li{
+  margin-right: 0;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  padding: 0.5rem 1.1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.btn {
+  padding: 0.5rem 1.1rem;
+  font-size: 1.1rem;
+}
+
+/* title text */
+
+.title-img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  opacity: 0.9;
+  margin-left: 9.8%;
+  margin-top: 10.5rem;
+  border-radius: 100%;
+  background-color: #B83B5E;
+  transform: translateX(13rem);
+}
+
+.title-text {
+  position: absolute;
+  z-index: 1;
+  line-height: 2.8;
+  margin: 11.6rem 0;
+ }
+
+.title-text h3 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0.8rem 0;
+  text-transform: none;
+}
+
+@media (max-width: 992px) {
+  div .title-img {
+    transform: translateX(4rem);
+  }
+
+  .title-text {
+    margin-left: 4%;
+    margin: 12.2rem 0;  /*changed from 1rem auto*/  /*5.7*/
+  }
+}
+
+/* features */
+
+
+.features-col {
+  text-align: center;
+  padding: 3%;
+}
+
+.features-col img {
+  width: 20%;
+  height: 30%;
+}
+
+.icon {
+  color: #B83B5E;
+  padding-bottom: 1rem;
+}
+
+.d-flex {
+  padding-bottom: 1rem;
+}
+
+/* 3rd section */
+
+.mission {
+  /* background-color: #A6E3E9; */
+  padding: 2% 7% 0.8%;
+  background-image: url('images/waves.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 1100px; */
+  /* overflow: visible; */
+}
+
+.image-card {
+  padding: 3% 1%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 340px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.mission #card-heading {
+  color: #8f8f8f;
+  font-weight: 500;
+  font-size: 1.1rem;
+  /* margin-bottom: 8px; */
+}
+
+.mission .card-body .row {
+  margin-bottom: 8px;
+}
+
+.mission #quick-text {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.mission h4 {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 0.5rem 1.1rem 1.1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.mission h3 {
+  color: #6A2C70;
+  font-weight: bold;
+}
+
+.mission .shadow-none {
+  padding: 3px 5px;
+  border-left: 3px solid #6A2C70;
+  background-color: #EEEEEE;
+  border-radius: 2%;
+  margin: 0;
+}
+
+.mission .card-body img {
+  height: 60px;
+  width: 60px;
+}
+
+.mission h5 p{
+  /* float: right; */
+  font-size: 0.8rem;
+  text-transform: none;
+  padding: 0;
+  margin: 0.4rem auto;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background-color: #54567A;
+}
+
+footer p {
+  color: #fff;
+  font-weight: 200;
+  padding-top: 15px;
+  font-size: 0.9rem;
+}
+
+footer i {
+  color: #fff;
+  padding: 15px 5px 8px;
+}
+
+
+/* Testing */
